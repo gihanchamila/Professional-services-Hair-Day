@@ -29,6 +29,7 @@ ul {
 ul li {
     margin: 0 10px;
     display: inline-block;
+   
 }
 
 nav {
@@ -39,5 +40,7 @@ nav {
     align-items: center;
 }
 
-
-
+a[href] {
+    text-decoration: none;
+    color: #333;
+}
