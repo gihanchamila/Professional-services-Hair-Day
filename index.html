@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Professional hair services for your perfect hair day.">
     <title>Professional Services - Hair Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
     <!-- Open Graph meta tags -->
@@ -17,7 +20,7 @@
 <body>
 
     <!-- Header -->
-    <header>
+   </div> <header>
         <figure>
             <img src="/public/Artboard 19.png" id="logo" class="logo" alt="hair day logo" width="100">
         </figure>
@@ -39,12 +42,18 @@
     <!-- Main content -->
     <main>
         <figure>
-            <img src="/public/Untitled-1.png" class="banner-image" alt="hair-coloring-logo">
+            <div class="banner-wrapper">
+                <img src="/public/Untitled-1.png" class="banner-image" alt="hair-coloring-logo">
+                <div class="banner-content">
+                    <h1>Get 20% off on your first visit!</h1>
+                    <button class="book-now">Book Now</button>
+                  </div>
+            </div>
         </figure>
 
         <section>
             <article>
-                <div>
+                <div class="card">
                     <figure>
                         <img src="/public/Hair color.jpg" alt="hair-color-image" width="100">
                     </figure>
@@ -57,7 +66,7 @@
             </article>
 
             <article>
-                <div>
+                <div class="card">
                     <figure>
                         <img src="/public/Makeup.jpg" alt="Makeup services" width="100">
                     </figure>
@@ -70,7 +79,7 @@
             </article>
 
             <article>
-                <div>
+                <div class="card">
                     <figure>
                         <img src="/public/Nail.jpg" alt="Nail services" width="100">
                     </figure>
