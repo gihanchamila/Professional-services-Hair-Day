@@ -31,5 +31,13 @@ ul li {
     display: inline-block;
 }
 
+nav {
+    grid-area: nav;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
